@@ -1,0 +1,261 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.footer-logos {
+    margin-top: 10px;
+}
+
+.footer-logos img {
+    width: 30px; /* Adjust the width of the logos as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between logos */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Search Form Styles */
+#search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Recent Searches Styles */
+#recent-searches {
+    list-style: none;
+    padding: 0;
+}
+
+#recent-searches li {
+    margin-bottom: 5px;
+}
+
+/* Location Styles */
+#location-info {
+    text-align: center;
+}
+
+/* Current Weather Styles */
+#weather-info {
+    text-align: center;
+}
+
+/* Forecast Styles */
+#forecast-info {
+    text-align: center;
+}
+
+  
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    #search-input {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+    
+    .footer-logos {
+        margin-top: 10px;
+    }
+    
+    .footer-logos img {
+        width: 30px; /* Adjust the width of the logos as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Add spacing between logos */
+    }
+}
+
+/* Styles for shifting to the left, current weather and weather forecast sections */
+@media only screen and (max-width: 550px) {
+    #duplicate, #duplicate2 {
+        display: none;
+    }
+    /* Current Weather Styles */
+#weather-info {
+    text-align: left;
+}
+
+/* Forecast Styles */
+#forecast-info {
+    text-align: left;
+}
+
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    #search-input {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    #recent-searches {
+        font-size: 12px;
+    }
+    .footer-logos {
+        margin-top: 8px;
+    }
+    
+    .footer-logos img {
+        width: 20px; /* Adjust the width of the logos as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Add spacing between logos */
+    }
+}
+
+
+/* iPhone Styles */
+@media only screen and (max-width: 375px) {
+    header {
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    #search-input {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 8px;
+    }
+
+    section {
+        padding: 8px;
+    }
+
+    #recent-searches {
+        font-size: 12px;
+    }
+    .footer-logos {
+        margin-top: 8px;
+    }
+    
+    .footer-logos img {
+        width: 20px; /* Adjust the width of the logos as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Add spacing between logos */
+    }
+}
